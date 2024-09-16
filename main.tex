@@ -1,0 +1,274 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage[dvipsnames]{xcolor}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textcolor{Blue}{\Huge \scshape Tory Chen} \\ \vspace{1pt}
+    %123 Street Name, Town, State 12345 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ (+1) 647-710-8563 ~ \href{mailto:tory.chen@uwaterloo.ca}{\raisebox{-0.2\height}\faEnvelope\  \underline{tory.chen@uwaterloo.ca}} ~ 
+    \href{https://www.linkedin.com/in/torychen/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/torychen/}}  ~
+    \href{https://github.com/Chen-To}{\raisebox{-0.2\height}\faGithub\ 
+    \underline{github.com/Chen-To}}
+    %https://snazzyturtles.github.io/
+    % \href{https://snazzyturtles.github.io/}{\raisebox{-0.2\height}\faGlobe\ \underline{snazzyturtles.github.io}}  ~
+    \vspace{-8pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{\textcolor{Blue}{Education}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+          {\textcolor{NavyBlue}{University of Waterloo}}{Sep 2021 -- Apr 2026}
+      {Bachelor of Computer Science | Dean's Honours}{Waterloo, ON}
+      \begin{itemize}
+        \item\small \textbf{Overall Average:} 93.25\%, \textbf{GPA:} 3.97/4.00
+        \item\small B.P. Dammizio Entrance Scholarship, President Scholar of Distinction
+      \end{itemize}
+      \vspace{0.4pt}
+  \resumeSubItem{}
+    \textbf{\textcolor{NavyBlue}{Relevant Coursework}}{: Data Structures and Algorithms, Object‐Oriented Programming, Application Development, Operating Systems, Compilers, Machine Learning, Statistical Analysis, Linear Algebra, Calculus, Combinatorics and Optimization, Numerical Computation} 
+    \vspace{3pt}
+      % \textbf{Relevant Coursework}
+      % \newline{Data Structures and Algorithms, Functional Programming, Data Abstraction, Computer Organization and Design, Logic and Computation, Object-Oriented Programming, Linear Algebra, Data and Statistical Analysis, Combinatorial Optimization, Sequential Programming, Numerical Computation, Stochastic Processes}
+  \resumeSubHeadingListEnd
+  \vspace{-16pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{\textcolor{Blue}{Technical Skills}}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\textcolor{NavyBlue}{Languages}}{: Java, TypeScript, JavaScript, Python, C++, C, SQL, Bash, HTML, CSS} \\
+     \textbf{\textcolor{NavyBlue}{Technologies}}{: Spring Boot, Kafka, Flink, React, Node.js, Express.js, REST APIs, NoSQL, Flask, LangChain, sklearn} \\
+     \textbf{\textcolor{NavyBlue}{Developer Tools}}{: Git, Linux, AWS, GCP, Kubernetes, Docker, Webpack, Postman, VS Code, Jupyter Notebook} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------EXPERIENCE-----------
+\section{\textcolor{Blue}{Experience}}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {{\href{https://www.ibm.com/ca-en}{\textcolor{NavyBlue}{IBM}}} $|$ \textnormal{Java, Python, React, Spring Boot, Kafka, Flink, MongoDB, Kubernetes}}{May 2024 -- Aug 2024}
+      {Software Developer}{Toronto, ON}
+      \resumeItemListStart
+        \resumeItem{Designed a test coordinator system that automates regression testing for \textbf{350+} Kafka Streams apps on a \textbf{Kubernetes} cluster using a microservice architecture that employs a \textbf{LLM} for schema mapping and \textbf{Flink Jobs} written in \textbf{Java} for data generation and validation.}
+        % \resumeItem{Created a \textbf{Java Spring Boot} library that handles logging for Kafka Streams apps using the \textbf{AOP} paradigm.}
+        \resumeItem{Created a dynamic and responsive user interface for the test coordinator system that allowed the user to select the test app, edit test values, view test results and leveraged \textbf{caching} to reduce load times using \textbf{React} and \textbf{TypeScript}.}
+        \resumeItem{Built a \textbf{Kafka Streams} app that generates \textbf{110 000+} messages and deployed it on a \textbf{Kubernetes} cluster using \textbf{Helm}.}
+        \resumeItem{Automated the matching of test scripts using \textbf{vector embeddings} and the \textbf{Reciprocal Rank Fusion} algorithm, saving \textbf{5 mins} per script.}
+      \resumeItemListEnd
+
+    %START EDITING FROM HERE -----------------------------------------------------------------
+
+    \resumeSubheading
+      {{\href{https://www.ibm.com/ca-en}{\textcolor{NavyBlue}{IBM}}} $|$ \textnormal{Python, LangChain, Flask, Neo4j, AWS, GCP, Docker}}{Jan 2024 -- Apr 2024}
+      {Machine Learning Developer}{Toronto, ON}
+      \resumeItemListStart
+        \resumeItem{Improved the accuracy of \textbf{RAG systems} for \textbf{LLMs} by \textbf{65\%} by replacing the \textbf{vector database} with a \textbf{Neo4j} graph database that is integrated with \textbf{vector embeddings} and stores data chunks based on structure and hierarchy.}
+        \resumeItem{Built a parser API that generates a hierarchical graph structure from .pdf and .docx files using \textbf{Python} and \textbf{Flask}.}
+        \resumeItem{Developed a \textbf{LangChain} retriever and reduced \textbf{Neo4j} query times by \textbf{63\%} through optimizing the \textbf{Cypher} queries.}
+        \resumeItem{Automated \textbf{Java} code conversion from \textbf{Struts 2} to \textbf{Spring Boot} using the \textbf{Claude model} integrated with \textbf{RAG}.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {{\href{https://www.drinbox.ca/}{\textcolor{NavyBlue}{Dr. Inbox}}} $|$ \textnormal{Python, pandas, DynamoDB, AWS}}{May 2023 -- Aug 2023}
+      {Software Developer}{Cambridge, ON}
+      \resumeItemListStart
+        \resumeItem{Created \textbf{CI/CD pipelines} on \textbf{AWS} that automate \textbf{unit testing}, \textbf{integration testing} and deployment for serverless Lambda functions and led the adaptation of \textbf{IaC} by provisioning cloud resources using \textbf{Cloudformation} and \textbf{SAM}.}
+        \resumeItem{Improved accuracy for automated prescription refills by \textbf{38\%} through fuzzy matching and enhanced brute force strategies.} 
+        \resumeItem{Developed a Python GUI script that syncs Dr. Inbox's data with the PS Suite EMR using \textbf{DynamoDB}, \textbf{SNS} and \textbf{SQS}, saving \textbf{30 mins} daily.}
+        % \resumeItem{Built \textbf{REST APIs} using Lambda proxy integration and improved their \textbf{DynamoDB} query efficiency by \textbf{112\%} by configuring a \textbf{GSI}.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {{\href{https://www.yuja.com/}{\textcolor{NavyBlue}{YuJa}}} $|$ \textnormal{TypeScript, React, Express.js, Webpack, SQL, AWS}}{May 2022 -- Aug 2022}
+      {Software Developer}{San Jose, CA}
+      \resumeItemListStart
+        % \resumeItem{Setup \textbf{OIDC} user authentication for the \textbf{Verity LTI} tool and wrote \textbf{APIs} in \textbf{TypeScript} that integrate the tool with various LMS providers.}
+        \resumeItem{Built a custom synchronized webcam and screen video player that replays videos stored on \textbf{S3} using \textbf{React} and \textbf{Video.js}.}
+        \resumeItem{Designed the \textbf{SQL} database schema that supports \textbf{230 000+} student users and wrote queries that monitored video processing, validated account data and authenticated user sessions using the \textbf{Sequelize ORM}.}
+        \resumeItem{Improved video processing efficiency by \textbf{87\%} by leveraging \textbf{Node Worker threads} to process videos concurrently.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%------CONTEST AWARDS-------
+% \section{\textcolor{Blue}{Contest Awards}}
+%    \vspace{-13pt}
+%     \resumeSubHeadingListStart
+%       \resumeProjectHeading{}{}
+%           {\textbf{\textcolor{NavyBlue}{Canadian Math Olympiad/Canadian Open Math Competition}}}
+%           \vspace{-7pt}
+%           \resumeItemListStart
+%             \resumeItem{Top 3 in province for the COMC throughout all years of high school, qualified for and wrote the CMO 3 times.}
+%           \resumeItemListEnd
+%           \vspace{-20pt}
+%       \resumeProjectHeading{}{}
+%           {\textbf{\textcolor{NavyBlue}{American Invitational Math Exam/American Math Contest	}}}
+%           \vspace{-7pt}
+%           \resumeItemListStart
+%             \resumeItem{Top 5 in Canada for several AMC 10s/12s, placed top 3 in all of Canada for the AIME twice.}
+%           \resumeItemListEnd
+%           \vspace{-22pt}
+%       \resumeProjectHeading{}{}
+%           {\textbf{\textcolor{NavyBlue}{Canadian Chemistry Olympiad}}}
+%           \vspace{-7pt}
+%           \resumeItemListStart
+%             \resumeItem{Earned a Gold medal (2nd in all of Canada) at the CCO and qualified for the Canadian ICHO team.}
+%           \resumeItemListEnd
+%     \resumeSubHeadingListEnd
+% \vspace{-12pt}
+
+%-----------PROJECTS-----------
+\section{\textcolor{Blue}{Projects}}
+  \resumeSubHeadingListStart
+
+    % \resumeSubheading
+    %   {{\textcolor{NavyBlue}{Real Estate Quantitative Analysis Tool}} $|$ \textnormal{Python, C++}}{January 2023 -- Present}
+    %   {Project Lead and Head Quantitative Researcher (4-person team)}{}
+    %   \resumeItemListStart
+    %     \resumeItem{Used public housing data to train a multi-layered neural network consisting of a custom-trained encoder followed by a parallelized convolutional neural network (CNN) and a recurrent neural network (RNN).}
+    %     \resumeItem{Implemented a two-phased analysis to generate better estimates for fair-market sale prices than government valuations, and to accurately create long-term growth projections for property values.}
+    %   \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {{\textcolor{NavyBlue}{WLP4 Compiler}} $|$ \textnormal{C++, Valgrind, GDB}}{}
+    %   {}{}
+    %   \vspace{-16pt}
+    %   \resumeItemListStart
+    %     \resumeItem{Created a \textbf{compiler} that compiles \textbf{WLP4}, a Turing complete language that contains a strict subset of \textbf{C}, into \textbf{MIPS}.}
+    %     \resumeItem{Developed a \textbf{maximal munch} algorithm for the \textbf{lexer} and a \textbf{bottom up} parsing algorithm for the \textbf{parser} using \textbf{DFAs}.}
+    %     \resumeItem{Performed \textbf{semantic analysis} and generated the \textbf{assembly code} based on the \textbf{syntax tree} generated by the \textbf{parser}.}
+    
+    \resumeSubheading
+      {{\href{https://markdown.torychen.com}{\textcolor{NavyBlue}{Markdown Editor  }\faGithub}} $|$ \textnormal{TypeScript, React, Material UI}}{}
+      {}{}
+      \vspace{-16pt}
+      \resumeItemListStart
+        \resumeItem{Built a web based \textbf{Markdown} editor that compiles \textbf{Markdown} into \textbf{HTML} for display using \textbf{React} and \textbf{TypeScript}.}
+        \resumeItem{Developed a \textbf{lexer} that scans the input and converts it into tokens by using a variant of the \textbf{maximal munch} algorithm.}
+        \resumeItem{Implemented a \textbf{parser} that changes the lexer tokens into a valid \textbf{syntax tree} and used the tree to generate HTML.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%-----------HOBBIES AND INTERESTS-----------
+\section{\textcolor{Blue}{Hobbies and Interests}}
+  \resumeItemListStart
+    \resumeItem{Soccer, Badminton, Swimming, Climbing, Poker, Chess, Hiking, Cooking}
+  \resumeItemListEnd
+
+
+\end{document}
